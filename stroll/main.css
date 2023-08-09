@@ -1,0 +1,751 @@
+/* header  */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(248, 95, 95);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header .left {
+    width: 49%;
+}
+
+.header .left h1 {
+    font-size: 40px;
+    margin: 10px 0px 10px 30px;
+    color: whitesmoke;
+}
+
+.header .left h1 i {
+    font-size: 30px;
+}
+
+.header .right {
+    width: 49%;
+}
+
+.header .right ul {
+    list-style: none;
+    margin-top: 20px;
+    text-align: end;
+}
+
+.header .right ul li {
+    display: inline;
+}
+
+.header .right ul li a:hover {
+    color: yellow;
+    transition: 0.5s all ease;
+    padding: 0px 0px 3px 0px;
+}
+
+.header .right li a {
+    text-decoration: none;
+    margin: 0px 0px 0px 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.blog {
+    position: relative;
+}
+
+.single {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    display: none;
+    width: 150px;
+    text-align: left !important;
+    background-color: rgb(248, 95, 95);
+    padding-bottom: 5px;
+}
+
+.single a {
+    color: black;
+}
+
+.blog:hover .single {
+    display: block;
+}
+
+/* section1 */
+.section1 {
+    display: flex;
+    width: 100%;
+    flex-direction: unset;
+    height: 100%;
+    background-color: rgb(250, 246, 239);
+}
+
+.section1 .left {
+    margin: 170px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+    width: 49%;
+}
+
+.section1 .left h6 {
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+    color: rgb(55, 55, 92);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section1 .left h1 {
+    font-size: 60px;
+    padding: 0px 0px 15px 0px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section1 .left h1 span {
+    font-weight: 900;
+}
+
+.section1 .left p {
+    opacity: 0.6;
+    font-size: 19px;
+    padding: 0px 0px 36px 0px;
+}
+
+.section1 .left button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid rgb(55, 55, 92);
+    color: rgb(55, 55, 92);
+    position: relative;
+}
+
+.section1 .left button:hover {
+    background-color: rgb(55, 55, 92);
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s all linear;
+}
+
+.section1 .right {
+    width: 49%;
+}
+
+.section1 .right img {
+    width: 100%;
+    height: 550px;
+}
+
+/* section2  */
+.section2 .parth {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 0px;
+    margin-top: 100px;
+    padding-left: 50px;
+
+}
+
+.section2 .Air {
+    margin: 10px;
+    padding: 10px;
+}
+
+.section2 .Air:hover i {
+    background-color: rgb(217, 235, 235);
+    color: rgb(49, 49, 73);
+    transition: .3s all linear;
+}
+
+.section2 .Air h1:hover {
+    color: red;
+    transition: .5s all linear;
+}
+
+.section2 .Air i {
+    font-size: 30px;
+    background-color: rgb(202, 164, 170);
+    border-radius: 50%;
+    padding: 18px;
+    color: #6e0f0f;
+}
+
+.section2 .Air h1 {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+}
+
+.section2 .Air p {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    opacity: .7;
+}
+
+/* section3 */
+.section3 {
+    padding: 50px 70px;
+    background-color: rgb(231, 227, 227);
+}
+
+.section3 .upper {
+    position: relative;
+    margin: 40px 20px;
+}
+
+.section3 .upper span::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    top: 15%;
+    left: 0px;
+}
+
+.section3 .upper span {
+    color: rgb(55, 117, 117);
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section3 .upper h1 {
+    font-size: 35px;
+    margin: 5px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section3 .lower {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
+    gap: 20px 20px;
+    margin: 20px 20px;
+}
+
+.section3 .lower .swara {
+    position: relative;
+}
+
+.section3 .lower .swara img {
+    height: 400px;
+    width: 100%;
+}
+
+.section3 .lower .paris {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.section3 .lower .paris h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.section3 .lower .paris p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section3 .lower .paris p em {
+    color: yellow;
+}
+
+/* section4 */
+.section4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section4 .upper video {
+    margin: 100px 0px 60px 0px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.section4 .upper video source {
+    width: 100%;
+}
+
+.section4 .lower {
+    position: relative;
+    display: flex;
+    flex-direction: unset;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.section4 .lower .left {
+    width: 49%;
+    padding-left: 100px;
+}
+
+.section4 .lower .left span:before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    top: 10%;
+    left: 100px;
+}
+
+.section4 .lower .left span {
+    color: rgb(55, 117, 117);
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section4 .lower .left h1 {
+    font-size: 35px;
+    margin: 5px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section4 .lower .right {
+    width: 49%;
+}
+
+.section4 .lower .right p{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    padding-right: 70px;
+    opacity: .6;
+}
+/* section5 */
+.section5{
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section5 .upper{
+    position: relative;
+}
+
+.section5 .upper span::before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    top: 16%;
+    left: 100px;
+}
+
+.section5 .upper span {
+    color: rgb(55, 117, 117);
+    margin-left: 13%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section5 .upper h1 {
+    font-size: 35px;
+    margin: 5px 0px 0px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section5 .lower{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px 0px 20px 100px;
+    gap: 30px 0px;
+}
+.section5 .lower .form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+.section5 .lower .form .label{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.section5 .lower .form .name1 input{
+    padding: 15px 10px 15px 10px;
+    width: 80%;
+    background-color: rgb(235, 233, 233);
+    border-style: none;
+    border-radius: 10px;
+}
+.section5 .lower .form .name2 .name2_1{
+    padding: 15px 10px 15px 10px;
+    width: 80%;
+    background-color: rgb(235, 233, 233);
+    border-style: none;
+    border-radius: 10px;
+}
+.section5 .lower .form .name3 .name3_1{
+    padding: 15px 10px 15px 10px;
+    width: 80%;
+    background-color: rgb(235, 233, 233);
+    border-style: none;
+    border-radius: 10px;
+}
+.section5 .lower .form .name4 .name4_1{
+    padding: 15px 10px 15px 10px;
+    width: 80%;
+    background-color: rgb(235, 233, 233);
+    border-style: none;
+    border-radius: 10px;
+}
+.section5 .lower .form .name5 input{
+    padding: 15px 10px 15px 10px;
+    width: 80%;
+    background-color: rgb(235, 233, 233);
+    border-style: none;
+    border-radius: 10px;
+}
+.section5 .lower .form .name6 button{
+    padding: 10px 10px 10px 10px;
+    width: 80%;
+    background-color: rgb(23, 95, 228);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.section5 .lower .form .name6 button:hover{
+    background-color: red;
+}
+/* section6 */
+.section6 .upper{
+    position: relative;
+}
+.section6 .upper .img1 img{
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  filter: brightness(40%);
+}
+.section6 .upper .content{
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+}
+.section6 .upper .content .left{
+    width: 49%;
+}
+.section6 .upper .content .right{
+    width: 49%;
+}
+.section6 .upper .content .right span:before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    top: 5%;
+    left: 49%;
+}
+
+.section6 .upper .content .right span {
+    color: rgb(55, 117, 117);
+    color: yellow;
+    margin-left: 10.5%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section6 .upper .content .right h1 {
+    font-size: 35px;
+    color: white;
+    margin: 5px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section6 .upper .content .right p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 100px 20px 0px;
+}
+.section6 .upper .content .right .email{
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+}
+.section6 .upper .content .right .email input{
+    padding: 12px 20px 12px 20px;
+    width: 55%;
+    font-size: 20px;
+    border: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.section6 .upper .content .right .email button{
+    padding: 12px 20px 12px 20px;
+    width: 28%;
+    background-color: rgb(235, 68, 96);
+    color: white;
+    font-size: 20px;
+    border: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.section6 .upper .content .right .email button:hover{
+    background-color: rgb(136, 53, 212);
+    transition: 1s all ease;
+}
+.section6 .upper .content .right h6{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    opacity: .7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 100px 15px 0px;
+}
+/* section7 */
+ .section7 .upper{
+    margin: 50px 0px 0px 0px ;
+    position: relative;
+}
+.section7 .upper span:before {
+    content: "";
+    background-color: red;
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    top: 17%;
+    left: 6%;
+}
+
+.section7 .upper span {
+    color: rgb(55, 117, 117);
+    margin-left: 11%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section7 .upper h1 {
+    font-size: 35px;
+    margin: 5px 0px 0px 6%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section7 .lower {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px 6px;
+    margin: 50px 60px 0px 80px;
+}
+.section7 .lower .sec1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 35px 25px 20px 25px;
+    position: relative;
+}
+.section7 .lower .sec1 .collon{
+    position: absolute;
+    top: 19px;
+    left: 23px;
+}
+.section7 .lower .sec1 .collon i{
+    font-size: 60px;
+    opacity: .3;
+    color: rgb(61, 162, 165);
+}
+.section7 .lower .sec1 .up p{
+    font-size: 18px;
+    opacity: .7;
+    padding: 0px 0px 20px 0px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section7 .lower .sec1 .down{
+    display: flex;
+    flex-direction: unset;
+    gap: 0px 25px;
+}
+.section7 .lower .sec1 .down .left img{
+    border-radius: 50px;
+    width: 60px;
+}
+.section7 .lower .sec1 .down .right h2{
+    padding: 4px 0px 0px 0px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.section7 .lower .sec1 .down .right h4{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section7 .lower .sec1:hover{
+    background-color: rgb(48, 96, 184);
+    transition: .5s all ease;
+}
+.section7 .lower .sec1:hover p{
+    color: white;
+    transition: .5s all ease;
+}
+.section7 .lower .sec1:hover h2{
+    color: yellow;
+    transition: .5s all ease;
+}
+.section7 .lower .sec1:hover i{
+    color: rgb(8, 23, 51);
+    transition: .5s all ease;
+}
+/* section8 */
+.section8{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 70px 0px 0px 0px;
+    padding: 90px 80px 0px 80px;
+    background-color: rgb(31, 30, 30);
+    color: whitesmoke;
+    width: 100%;
+}
+.section8 .para1{
+    width: 90%;
+}
+.section8 .para2{
+    width: 96%;
+    display: flex;
+    gap: 0px 24px;
+}
+.section8 .para3{
+    width: 90%;
+    margin: 0px 0px 70px 0px;
+}
+.section8 .para1 h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(238, 12, 61);
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.section8 .para1 h1 i{
+    font-size: 30px;
+    color: white;
+    padding: 0px 3px;
+}
+.section8 .para1 p{
+    opacity: .5;
+    padding: 10px 30px 20px 0px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.section8 .face li{
+    display: inline;
+    width: 100%;
+}
+
+.section8 .face li a{
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.06);
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+.section8 .face li a i{
+    height: 35px;
+    margin-top: 10px;
+}
+.section8 .face li a i:hover{
+    font-size: 15px;
+    color: red;
+}
+ .fa-facebook-f:before {
+    content: "\f09a";
+}
+.section8 .para2 .left h1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 0px 20px 0px;
+}
+.section8 .para2 .left ul li{
+    list-style: none;
+    padding: 15px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section8 .para2 .left ul li a{
+    color: white;
+    text-decoration: none;
+}
+.section8 .para2 .left ul li a:hover{
+    color: rgb(67, 67, 209);
+}
+.section8 .para3 h1{
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 0px 14px 0px;
+}
+.section8 .para3 .images{
+    margin: 20px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 20px;
+}
+.section8 .para3 .images img{
+    height: 130px;
+    width: 100%;
+    border-radius: 10px;
+}
+/* footer */
+.footer{
+    display: flex;
+    width: 100%;
+    padding: 20px 80px 20px 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    flex-direction: unset;
+    color: #fff;
+    font-size: 17px;
+}
+.footer .left{
+    width: 54%;
+    display: flex;
+    flex-direction: unset;
+    gap: 0px 9px;
+}
+.footer .left p{
+    opacity: .5;
+}
+.footer .left span{
+    font-weight: 500;
+}
+.footer .right{
+    width: 47%;
+    margin: 0px 0px 0px 0px;
+}
+.footer .right ul li{
+    display: inline;
+    margin: 0px 0px 0px 40px;
+}
+.footer .right ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.footer .right ul li a:hover{
+    color: rgb(63, 63, 172);
+}
